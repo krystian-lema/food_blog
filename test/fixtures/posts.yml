@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  receipt_type: 1
+  title: MyString
+  ingredients: MyString
+  description: MyString
+
+two:
+  receipt_type: 1
+  title: MyString
+  ingredients: MyString
+  description: MyString

@@ -1,0 +1,7 @@
+<h1>Najnowsze:</h1>
+<% @posts.each do |post| %>
+  <div class="well">
+    <h3><%= post.title %> [<%= post.receipt_type%>] </h3>
+    <%= link_to "Read More", post_path(post), :class => 'btn btn-default' %>
+  </div>
+<% end %>
